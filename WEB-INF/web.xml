@@ -1,0 +1,216 @@
+<web-app>
+
+	<display-name>
+		Captcha as a Graphical Password
+	</display-name>
+
+	<!-- User Info -->
+
+
+	<servlet>
+		<servlet-name>NewUser</servlet-name>
+		<servlet-class>com.amutha.User.NewUser</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>NewUser</servlet-name>
+		<url-pattern>/NewUser</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PasswordSet</servlet-name>
+		<servlet-class>com.amutha.User.PasswordSet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PasswordSet</servlet-name>
+		<url-pattern>/PasswordSet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ForgetPass</servlet-name>
+		<servlet-class>com.amutha.User.ForgetPass</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ForgetPass</servlet-name>
+		<url-pattern>/ForgetPass</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.amutha.User.Login</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PasswordCheck</servlet-name>
+		<servlet-class>com.amutha.User.PasswordCheck</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PasswordCheck</servlet-name>
+		<url-pattern>/PasswordCheck</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CGPSet</servlet-name>
+		<servlet-class>com.amutha.User.CGPSet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>CGPSet</servlet-name>
+		<url-pattern>/CGPSet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.amutha.Admin.AdminLogin</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteAccountDetails</servlet-name>
+		<servlet-class>com.amutha.Admin.DeleteAccountDetails</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DeleteAccountDetails</servlet-name>
+		<url-pattern>/DeleteAccountDetails</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateAccountDetails</servlet-name>
+		<servlet-class>com.amutha.Admin.UpdateAccountDetails</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UpdateAccountDetails</servlet-name>
+		<url-pattern>/UpdateAccountDetails</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteBranchDetails</servlet-name>
+		<servlet-class>com.amutha.Admin.DeleteBranchDetails</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DeleteBranchDetails</servlet-name>
+		<url-pattern>/DeleteBranchDetails</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>AddBranchDetails</servlet-name>
+		<servlet-class>com.amutha.Admin.AddBranchDetails</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AddBranchDetails</servlet-name>
+		<url-pattern>/AddBranchDetails</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddAccountDetails</servlet-name>
+		<servlet-class>com.amutha.Admin.AddAccountDetails</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AddAccountDetails</servlet-name>
+		<url-pattern>/AddAccountDetails</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateBranchDetails</servlet-name>
+		<servlet-class>com.amutha.Admin.UpdateBranchDetails</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UpdateBranchDetails</servlet-name>
+		<url-pattern>/UpdateBranchDetails</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>adminchangepwdaction</servlet-name>
+		<servlet-class>com.amutha.Admin.adminchangepwdaction</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>adminchangepwdaction</servlet-name>
+		<url-pattern>/adminchangepwdaction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SignOut</servlet-name>
+		<servlet-class>com.amutha.Admin.SignOut</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SignOut</servlet-name>
+		<url-pattern>/SignOut</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RegisterBenificiary</servlet-name>
+		<servlet-class>com.amutha.User.RegisterBenificiary</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RegisterBenificiary</servlet-name>
+		<url-pattern>/RegisterBenificiary</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateDetails</servlet-name>
+		<servlet-class>com.amutha.Admin.UpdateDetails</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UpdateDetails</servlet-name>
+		<url-pattern>/UpdateDetails</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ConfirmBenificiary</servlet-name>
+		<servlet-class>com.amutha.User.ConfirmBenificiary</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ConfirmBenificiary</servlet-name>
+		<url-pattern>/ConfirmBenificiary</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ConfirmOrRejectBenificiary</servlet-name>
+		<servlet-class>com.amutha.User.ConfirmOrRejectBenificiary</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ConfirmOrRejectBenificiary</servlet-name>
+		<url-pattern>/ConfirmOrRejectBenificiary</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MakePaymentToBenificiary</servlet-name>
+		<servlet-class>com.amutha.User.MakePaymentToBenificiary</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MakePaymentToBenificiary</servlet-name>
+		<url-pattern>/MakePaymentToBenificiary</url-pattern>
+	</servlet-mapping>
+	
+
+
+</web-app>
